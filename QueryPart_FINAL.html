@@ -1,0 +1,108 @@
+<div class="honourroll"><a name="A"></a>
+<h2>A</h2>
+<ul id="A" class="twocolumn">&nbsp;</ul>
+<h2>B</h2>
+<ul id="B" class="twocolumn">&nbsp;</ul>
+<h2>C</h2>
+<ul id="C" class="twocolumn">&nbsp;</ul>
+<h2>D</h2>
+<ul id="D" class="twocolumn">&nbsp;</ul>
+<h2>E</h2>
+<ul id="E" class="twocolumn">&nbsp;</ul>
+<h2>F</h2>
+<ul id="F" class="twocolumn">&nbsp;</ul>
+<h2>G</h2>
+<ul id="G" class="twocolumn">&nbsp;</ul>
+<h2>H</h2>
+<ul id="H" class="twocolumn">&nbsp;</ul>
+<h2>I</h2>
+<ul id="I" class="twocolumn">&nbsp;</ul>
+<h2>J</h2>
+<ul id="J" class="twocolumn">&nbsp;</ul>
+<h2>K</h2>
+<ul id="K" class="twocolumn">&nbsp;</ul>
+<h2>L</h2>
+<ul id="L" class="twocolumn">&nbsp;</ul>
+<h2>M</h2>
+<ul id="M" class="twocolumn">&nbsp;</ul>
+<h2>N</h2>
+<ul id="N" class="twocolumn">&nbsp;</ul>
+<h2>O</h2>
+<ul id="O" class="twocolumn">&nbsp;</ul>
+<h2>P</h2>
+<ul id="P" class="twocolumn">&nbsp;</ul>
+<h2>Q</h2>
+<ul id="Q" class="twocolumn">&nbsp;</ul>
+<h2>R</h2>
+<ul id="R" class="twocolumn">&nbsp;</ul>
+<h2>S</h2>
+<ul id="S" class="twocolumn">&nbsp;</ul>
+<h2>T</h2>
+<ul id="T" class="twocolumn">&nbsp;</ul>
+<h2>U</h2>
+<ul id="U" class="twocolumn">&nbsp;</ul>
+<h2>V</h2>
+<ul id="V" class="twocolumn">&nbsp;</ul>
+<h2>W</h2>
+<ul id="W" class="twocolumn">&nbsp;</ul>
+<h2>X</h2>
+<ul id="X" class="twocolumn">&nbsp;</ul>
+<h2>Y</h2>
+<ul id="Y" class="twocolumn">&nbsp;</ul>
+<h2>Z</h2>
+<ul id="Z" class="twocolumn">&nbsp;</ul>
+
+
+
+
+
+
+
+<script type="text/javascript">// <![CDATA[
+$(document).ready(function(){
+        $.get("https://test.unitedwaytoronto.org/document.doc?id=309", function(data){
+		$nameList = (data);
+		$nameSplit = $nameList.replace(/[0-9]/g, '');
+                $honorRoll = $nameSplit.replace(new RegExp(",", "g"), '<li>');
+                $honorRoll.replace(/[0-9]/g, '');
+				var honorRollArray = $honorRoll.split('###'); 
+		
+
+                  document.getElementById("A").innerHTML =(honorRollArray[0])
+                  document.getElementById("B").innerHTML =(honorRollArray[1])
+                  document.getElementById("C").innerHTML =(honorRollArray[2])
+                  document.getElementById("D").innerHTML =(honorRollArray[3])
+                  document.getElementById("E").innerHTML =(honorRollArray[4])
+                  document.getElementById("F").innerHTML =(honorRollArray[5])
+                  document.getElementById("G").innerHTML =(honorRollArray[6])
+                  document.getElementById("H").innerHTML =(honorRollArray[7])
+                  document.getElementById("I").innerHTML =(honorRollArray[8])
+                  document.getElementById("J").innerHTML =(honorRollArray[9])
+                  document.getElementById("K").innerHTML =(honorRollArray[10])
+                  document.getElementById("L").innerHTML =(honorRollArray[11])
+                  document.getElementById("M").innerHTML =(honorRollArray[12])
+                  document.getElementById("N").innerHTML =(honorRollArray[13])
+                  document.getElementById("O").innerHTML =(honorRollArray[14])
+                  document.getElementById("P").innerHTML =(honorRollArray[15])
+                  document.getElementById("Q").innerHTML =(honorRollArray[16])
+                  document.getElementById("R").innerHTML =(honorRollArray[17])
+                  document.getElementById("S").innerHTML =(honorRollArray[18])
+                  document.getElementById("T").innerHTML =(honorRollArray[19])
+                  document.getElementById("U").innerHTML =(honorRollArray[20])
+                  document.getElementById("V").innerHTML =(honorRollArray[21])
+                  document.getElementById("W").innerHTML =(honorRollArray[22])
+                  document.getElementById("X").innerHTML =(honorRollArray[23])
+                  document.getElementById("Y").innerHTML =(honorRollArray[24])
+                  document.getElementById("Z").innerHTML =(honorRollArray[25])
+                  console.log(honorRollArray);
+
+		   
+			
+});
+
+
+});
+// ]]></script>
+<a style="float: right; font-size: 0.75em; color: #000; text-decoration: none; font-weight: bold;" href="#top">Back to top</a><br />
+<p>&nbsp;</p>
+</div>
